@@ -15,7 +15,7 @@ docker-compose up
 
 El contenedor fue configurado para que ejecute
 ```
-python3 manage.py makemigrations
+python3 manage.py makemigrations car
 python3 manage.py migrate
 python3 manage.py runserver 0.0.0.0:8000
 ```
